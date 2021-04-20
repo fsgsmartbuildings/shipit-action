@@ -10,7 +10,7 @@ async function run() {
     }
 
     const config = require(GITHUB_EVENT_PATH);
-    console.log(`config: ${config}`);
+    console.log(`config: ${JSON.stringify(config)}`);
     core.setOutput('response', `sucess`)
   } 
   catch (error) {
