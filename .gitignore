@@ -1,0 +1,12 @@
+# Directories
+.db/
+.idea/
+logs/
+node_modules/
+
+# Files
+.DS_Store
+.env
+*.log
+*.swp
+.tmp
